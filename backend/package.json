@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "start": "nodemon"
   },
   "author": "Pedro Calás",
   "license": "ISC",
