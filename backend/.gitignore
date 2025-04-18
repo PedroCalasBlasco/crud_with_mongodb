@@ -1,0 +1,38 @@
+# Node modules (no subir dependencias instaladas)
+backend/node_modules/
+
+# Archivos de producción/transpilados
+backend/dist/
+backend/build/
+
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración del entorno (nunca subir claves privadas)
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# Cobertura de tests
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+
+# Temporal
+tmp/
+temp/

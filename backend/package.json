@@ -1,0 +1,26 @@
+{
+  "name": "node-moongo-crud",
+  "version": "1.0.0",
+  "description": "CRUD Con NodeJS y MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "author": "Pedro Calás",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "env-var": "^7.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
